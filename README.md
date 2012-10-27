@@ -9,7 +9,12 @@ To use this category, drag and drop NSArray+firstObject.h and NSArray+firstObjec
 
 Here's an example of how to use this in your code:
 
-    NSArray *myArray = [[NSArray alloc] init];
+Before
+
+    NSString *newString = [myArray objectAtIndex:0];
+
+After
+
     NSString *newString = [myArray firstObject];
  
 
