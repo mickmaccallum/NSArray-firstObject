@@ -11,11 +11,11 @@ Here's an example of how to use this in your code:
 
 Before
 
-    NSString *newString = [myArray objectAtIndex:0];
+  ```objective-c  NSString *newString = [myArray objectAtIndex:0]; ```
 
 After
 
-    NSString *newString = [myArray firstObject];
+  ```objective-c  NSString *newString = [myArray firstObject];```
  
 
 
