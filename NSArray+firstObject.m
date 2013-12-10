@@ -8,6 +8,8 @@
 - (id) firstObject {
     if (self.count > 0) {
         return [self objectAtIndex:0];
+    }else{
+        return nil;
     }
 }
 @end
